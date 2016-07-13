@@ -10,16 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var welcome: UILabel!
+    
+    @IBOutlet weak var signUpBtn: UIButton!
+    
+    
+    @IBAction func signInBtn(sender: AnyObject) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.profileImage.layer.cornerRadius = self.profileImage.frame.size.width / 2;
+        self.profileImage.clipsToBounds = true;
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "nature_background.jpg")!)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
