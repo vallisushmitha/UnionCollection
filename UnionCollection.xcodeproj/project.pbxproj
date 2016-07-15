@@ -14,17 +14,10 @@
 		371260671D367AFE00560DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371260651D367AFE00560DD1 /* LaunchScreen.storyboard */; };
 		371260721D367AFF00560DD1 /* UnionCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371260711D367AFF00560DD1 /* UnionCollectionTests.swift */; };
 		3712607D1D367AFF00560DD1 /* UnionCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712607C1D367AFF00560DD1 /* UnionCollectionUITests.swift */; };
-		3712608F1D367C3A00560DD1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712608A1D367C3A00560DD1 /* CustomCell.swift */; };
-		371260901D367C3A00560DD1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712608B1D367C3A00560DD1 /* MenuViewController.swift */; };
-		371260911D367C3A00560DD1 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712608C1D367C3A00560DD1 /* SideMenuViewController.swift */; };
 		371260921D367C3A00560DD1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712608D1D367C3A00560DD1 /* SignInViewController.swift */; };
 		371260931D367C3A00560DD1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712608E1D367C3A00560DD1 /* SignUpViewController.swift */; };
-		371260A21D367F3000560DD1 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 371260971D367F3000560DD1 /* SlideNavigationContorllerAnimatorFade.m */; };
-		371260A31D367F3000560DD1 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 371260991D367F3000560DD1 /* SlideNavigationContorllerAnimatorScale.m */; };
-		371260A41D367F3000560DD1 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 3712609B1D367F3000560DD1 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
-		371260A51D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 3712609D1D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlide.m */; };
-		371260A61D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 3712609F1D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
-		371260A71D367F3000560DD1 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371260A11D367F3000560DD1 /* SlideNavigationController.m */; };
+		37F781CE1D39032F000D70C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F781CD1D39032F000D70C3 /* HomeViewController.swift */; };
+		37F781D01D3910E6000D70C3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F781CF1D3910E6000D70C3 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,25 +51,10 @@
 		371260781D367AFF00560DD1 /* UnionCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnionCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3712607C1D367AFF00560DD1 /* UnionCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionCollectionUITests.swift; sourceTree = "<group>"; };
 		3712607E1D367AFF00560DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3712608A1D367C3A00560DD1 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		3712608B1D367C3A00560DD1 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		3712608C1D367C3A00560DD1 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		3712608D1D367C3A00560DD1 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		3712608E1D367C3A00560DD1 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		371260941D367F2F00560DD1 /* UnionCollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnionCollection-Bridging-Header.h"; sourceTree = "<group>"; };
-		371260951D367F3000560DD1 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
-		371260961D367F3000560DD1 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
-		371260971D367F3000560DD1 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
-		371260981D367F3000560DD1 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
-		371260991D367F3000560DD1 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
-		3712609A1D367F3000560DD1 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
-		3712609B1D367F3000560DD1 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
-		3712609C1D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
-		3712609D1D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
-		3712609E1D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
-		3712609F1D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
-		371260A01D367F3000560DD1 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
-		371260A11D367F3000560DD1 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		37F781CD1D39032F000D70C3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		37F781CF1D3910E6000D70C3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,31 +105,16 @@
 		3712605B1D367AFD00560DD1 /* UnionCollection */ = {
 			isa = PBXGroup;
 			children = (
-				371260951D367F3000560DD1 /* SlideNavigationContorllerAnimator.h */,
-				371260961D367F3000560DD1 /* SlideNavigationContorllerAnimatorFade.h */,
-				371260971D367F3000560DD1 /* SlideNavigationContorllerAnimatorFade.m */,
-				371260981D367F3000560DD1 /* SlideNavigationContorllerAnimatorScale.h */,
-				371260991D367F3000560DD1 /* SlideNavigationContorllerAnimatorScale.m */,
-				3712609A1D367F3000560DD1 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
-				3712609B1D367F3000560DD1 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
-				3712609C1D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlide.h */,
-				3712609D1D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlide.m */,
-				3712609E1D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
-				3712609F1D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
-				371260A01D367F3000560DD1 /* SlideNavigationController.h */,
-				371260A11D367F3000560DD1 /* SlideNavigationController.m */,
 				3712605C1D367AFE00560DD1 /* AppDelegate.swift */,
 				3712605E1D367AFE00560DD1 /* ViewController.swift */,
-				3712608A1D367C3A00560DD1 /* CustomCell.swift */,
-				3712608B1D367C3A00560DD1 /* MenuViewController.swift */,
-				3712608C1D367C3A00560DD1 /* SideMenuViewController.swift */,
 				3712608D1D367C3A00560DD1 /* SignInViewController.swift */,
+				37F781CD1D39032F000D70C3 /* HomeViewController.swift */,
+				37F781CF1D3910E6000D70C3 /* CollectionViewCell.swift */,
 				3712608E1D367C3A00560DD1 /* SignUpViewController.swift */,
 				371260601D367AFE00560DD1 /* Main.storyboard */,
 				371260631D367AFE00560DD1 /* Assets.xcassets */,
 				371260651D367AFE00560DD1 /* LaunchScreen.storyboard */,
 				371260681D367AFE00560DD1 /* Info.plist */,
-				371260941D367F2F00560DD1 /* UnionCollection-Bridging-Header.h */,
 			);
 			path = UnionCollection;
 			sourceTree = "<group>";
@@ -305,19 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F781CE1D39032F000D70C3 /* HomeViewController.swift in Sources */,
 				3712605F1D367AFE00560DD1 /* ViewController.swift in Sources */,
+				37F781D01D3910E6000D70C3 /* CollectionViewCell.swift in Sources */,
 				371260931D367C3A00560DD1 /* SignUpViewController.swift in Sources */,
-				371260A61D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
-				371260A21D367F3000560DD1 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
-				3712608F1D367C3A00560DD1 /* CustomCell.swift in Sources */,
-				371260A31D367F3000560DD1 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
-				371260A41D367F3000560DD1 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
-				371260A51D367F3000560DD1 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
-				371260A71D367F3000560DD1 /* SlideNavigationController.m in Sources */,
 				371260921D367C3A00560DD1 /* SignInViewController.swift in Sources */,
 				3712605D1D367AFE00560DD1 /* AppDelegate.swift in Sources */,
-				371260911D367C3A00560DD1 /* SideMenuViewController.swift in Sources */,
-				371260901D367C3A00560DD1 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +505,7 @@
 				371260831D367AFF00560DD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371260841D367AFF00560DD1 /* Build configuration list for PBXNativeTarget "UnionCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +514,7 @@
 				371260861D367AFF00560DD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371260871D367AFF00560DD1 /* Build configuration list for PBXNativeTarget "UnionCollectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +523,7 @@
 				371260891D367AFF00560DD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

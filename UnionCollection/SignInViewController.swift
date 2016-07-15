@@ -12,26 +12,35 @@ class SignInViewController: UIViewController,UITextFieldDelegate{
 
     @IBOutlet weak var userImageView: UIImageView!
     
-    @IBOutlet weak var userTF: UITextField!
+    @IBOutlet weak var emailTF: UITextField!
     
     @IBOutlet weak var passwordTF: UITextField!
     
     
     @IBAction func signInButton(sender: AnyObject) {
-        
-        var username = userTF.text
+        var email = emailTF.text
         var password = passwordTF.text
         
-        if(username!.isEmpty || password!.isEmpty){
-            
-            var myalert = UIAlertController(title: "Alert", message: "Required Fields", preferredStyle: UIAlertControllerStyle.Alert)
-            
-            let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil)
+        if(email!.isEmpty || password!.isEmpty){
+         var myalert = UIAlertController(title: "Alert", message: "Required Fields", preferredStyle: UIAlertControllerStyle.Alert)
+          let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil)
             myalert.addAction(okAction)
-            
             self.presentViewController(myalert,animated: true, completion: nil)
             return
             }
+        let usernamestored = NSUserDefaults.standardUserDefaults().stringForKey("email")
+        let passwordstored = NSUserDefaults.standardUserDefaults().stringForKey("password")
+        
+        if(usernamestored == email){
+            if(passwordstored == password){
+                //Login is succssfull
+                NSUserDefaults.standardUserDefaults().setBool(true, forKey: "isUserLoggedIn")
+                NSUserDefaults.standardUserDefaults().synchronize()
+                
+                self.dismissViewControllerAnimated(true, completion: nil)
+                return
+            }
+        }
        }
     
     override func viewDidLoad() {
@@ -52,6 +61,7 @@ class SignInViewController: UIViewController,UITextFieldDelegate{
         // Dispose of any resources that can be recreated.
     }
     
+
 
    
     

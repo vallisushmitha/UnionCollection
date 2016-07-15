@@ -11,17 +11,15 @@ import UIKit
 
 class MenuViewController: UIViewController,SlideNavigationControllerDelegate{
 
+
+    @IBOutlet weak var addbtn: UIBarButtonItem!
+    
     
     @IBOutlet weak var menubtn: UIBarButtonItem!
     
-    @IBOutlet weak var addbtn: UIBarButtonItem!
-    
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-       self.navigationItem.setHidesBackButton(true, animated:true);
-        
+      
      }
     
      override func didReceiveMemoryWarning() {
@@ -30,6 +28,9 @@ class MenuViewController: UIViewController,SlideNavigationControllerDelegate{
     }
     
     func slideNavigationControllerShouldDisplayLeftMenu() -> Bool {
+        return true;
+    }
+    func slideNavigationControllerShouldDisplayRightMenu() -> Bool {
         return true;
     }
 
